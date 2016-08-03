@@ -1,0 +1,230 @@
+/* Body */
+
+body {
+        background-color: white;
+        color: #1A1718;
+}
+
+/* Basic Textstyles */
+    
+.basic-p, .basic-h2, .basic-h3, .basic-h4 {
+        font-family: 'Poppins', sans-serif;  
+}
+
+.basic-p {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+
+.basic-h3, .basic-h4 {
+    color: #456990;
+}
+
+.h3-white {
+        color: white;
+}
+
+
+/* Navigation */
+
+    /* Navigation bar */
+
+.navbar {
+        background-color: rgba(14,128,193,0.95);  
+        margin-bottom: 0;
+        border-bottom: 0;
+} 
+
+     /* Navigation bar links */
+     
+.navbar-default .navbar-nav>li>a {
+        font-size: 1.6rem;
+        color: #fff;
+        text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a:focus  {
+        color: #ddd;
+        text-decoration: underline;
+}
+
+    /* Navigation bar logo */
+
+.navbar-brand {
+        font-size: 2.5rem;
+}
+
+.navbar-default .navbar-brand {
+        font-family: 'Pacifico', cursive;
+        color: #fff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default, navbar-brand:active  {
+        color: #ddd;
+}
+
+    /* Navigation hamburger */
+    
+ .navbar-default .navbar-toggle {
+        border: 0;
+ }
+    
+ .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+}
+
+ .navbar-default .navbar-toggle .icon-bar:hover {
+        color: #ddd;
+ }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: rgba(14,128,193,1); 
+}
+
+/* Jumbotron */
+
+.jumbotron {
+        background-image: url('../img/childsmile2.png');
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        margin-bottom: 0;
+}
+
+.brandname {
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+}
+
+/* Main content */
+
+    /* Headline, First Paragraph */
+    
+.first-row {
+        padding-top: 2rem;
+    }
+   
+#logotext {
+        font-family: 'Pacifico', cursive;
+}
+
+    /* Profiel */
+    
+.profieldiv {
+        display: inline-block;
+        margin-right: 2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+  .profiel {
+        border-radius: 50%;
+        width: 100px;
+    }
+    
+ .profieldiv p {
+        text-align: center;
+    }
+        
+.profielnaam {
+        font-weight: bold;
+    }
+     
+
+    /* Lightbox Food */
+ 
+.dishes img {
+        width: 100%;
+}
+
+    /* Menukaart */
+
+.menukaart, .menutitel {
+        background-color: rgba(14,128,193,1);    
+}
+
+.menukaart {
+    background-color: rgba(14,128,193,1);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menutitel h2 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.menu-h3 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.menu-list {
+    padding-left: 0;
+    list-style: none;
+    padding-bottom: 2rem;
+}
+
+.menu-list li {
+    padding-bottom: 1.5rem;
+}
+
+.menu-item {
+    font-weight: bold;
+}
+
+/* Custom Utility classes */
+
+/*Media Queries */
+
+@media (orientation: landscape) {
+    .no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .dishes img {
+        margin-bottom: 1.5rem;
+}  
+    .first-row {
+        padding-top: 0.5rem;
+    }
+    .jumbotron {
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .jumbotron h1 {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .jumbotron {
+        height: 60vh;
+    }
+    .jumbotron h1 {
+        margin-top: 35vh;
+    }
+   .dishes img {
+        margin-bottom: 1.5rem;
+}  
+}
+
+@media (min-width: 992px) {
+    .jumbotron {
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+        .jumbotron h1 {
+        margin-top: 75vh;
+    }   
+}
+
+
+
