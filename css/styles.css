@@ -29,7 +29,7 @@ body {
     /* Navigation bar */
 
 .navbar {
-        background-color: #fff;  
+        background-color: rgba(14,128,193,0.95);  
         margin-bottom: 0;
 } 
 
@@ -37,8 +37,7 @@ body {
      
 .navbar-default .navbar-nav>li>a {
         font-size: 1.6rem;
-        color: #2C87DE;
-        font-weight: bold;
+        color: #fff;
         text-transform: uppercase;
 }
 
@@ -55,11 +54,11 @@ body {
 
 .navbar-default .navbar-brand {
         font-family: 'Pacifico', cursive;
-        color: rgba(14,128,193,1);
+        color: #fff;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default, navbar-brand:active  {
-        color: rgba(14,128,193,1);
+        color: #fff;
 }
 
     /* Navigation hamburger */
@@ -231,6 +230,3 @@ body {
         margin-top: 75vh;
     }   
 }
-
-
-
