@@ -176,6 +176,14 @@ body {
 
 /* Custom Utility classes */
 
+.offset:before { 
+	display: block; 
+ 	content: " "; 
+  	height: 50px;
+        margin-top: -50px;	
+        visibility: hidden; 
+}
+
 /*Media Queries */
 
 @media (orientation: landscape) {
