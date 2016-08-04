@@ -178,9 +178,9 @@ body {
 
 .offset:before { 
 	display: block; 
- 	content: " "; 
-  	height: 50px;
-        margin-top: -50px;	
+ 	content: ""; 
+  	height: 55px;
+        margin-top: -55px;	
         visibility: hidden; 
 }
 
