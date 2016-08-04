@@ -138,11 +138,11 @@ body {
     /* Menukaart */
 
 .menukaart, .menutitel {
-        background-color: rgba(14,128,193,1);    
+        background-color: #e5e4e4;    
 }
 
 .menukaart {
-    background-color: rgba(14,128,193,1);
+    background-color: #e5e4e4;
     color: #fff;
     font-family: 'Poppins', sans-serif;
 }
