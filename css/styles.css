@@ -37,7 +37,8 @@ body {
      
 .navbar-default .navbar-nav>li>a {
         font-size: 1.6rem;
-        color: rgba(14,128,193,1);
+        color: #2C87DE;
+        font-weight: bold;
         text-transform: uppercase;
 }
 
