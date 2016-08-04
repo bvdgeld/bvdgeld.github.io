@@ -176,7 +176,7 @@ body {
 
 /* Custom Utility classes */
 
-.offset:before { 
+.setnav:before { 
 	display: block; 
  	content: ""; 
   	height: 55px;
