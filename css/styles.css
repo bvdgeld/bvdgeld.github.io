@@ -77,7 +77,7 @@ body {
  }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-        background-color: rgba(14,128,193,0.95); 
+        background-color: transparent;
 }
 
 /* Jumbotron */
