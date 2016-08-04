@@ -31,7 +31,6 @@ body {
 .navbar {
         background-color: rgba(14,128,193,0.95);  
         margin-bottom: 0;
-        border-bottom: 1px solid rgba(255,255,255,0.95);
 } 
 
      /* Navigation bar links */
