@@ -143,19 +143,16 @@ body {
 
 .menukaart {
     background-color: #e5e4e4;
-    color: #fff;
     font-family: 'Poppins', sans-serif;
 }
 
 .menutitel h2 {
     font-family: 'Pacifico', cursive;
-    color: #fff;
     padding-bottom: 2rem;
 }
 
 .menu-h3 {
     font-family: 'Poppins', sans-serif;
-    color: #fff;
 }
 
 .menu-list {
