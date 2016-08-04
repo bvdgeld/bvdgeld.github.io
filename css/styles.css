@@ -29,7 +29,7 @@ body {
     /* Navigation bar */
 
 .navbar {
-        background-color: rgba(14,128,193,0.95);  
+        background-color: #fff;  
         margin-bottom: 0;
 } 
 
@@ -37,7 +37,7 @@ body {
      
 .navbar-default .navbar-nav>li>a {
         font-size: 1.6rem;
-        color: #fff;
+        color: rgba(14,128,193,1);
         text-transform: uppercase;
 }
 
@@ -54,11 +54,11 @@ body {
 
 .navbar-default .navbar-brand {
         font-family: 'Pacifico', cursive;
-        color: #fff;
+        color: rgba(14,128,193,1);
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default, navbar-brand:active  {
-        color: #fff;
+        color: rgba(14,128,193,1);
 }
 
     /* Navigation hamburger */
